@@ -1,7 +1,6 @@
 ﻿using System;
 using ID.Managers;
 using ID.Systems;
-using Sirenix.OdinInspector;
 using UnityEngine;
 
 namespace ID.Core
@@ -15,9 +14,9 @@ namespace ID.Core
 
         private bool _isActive;
 
-        [BoxGroup("Movement")] public bool applyMovement = true;
-        [BoxGroup("Movement")] public float runSpeed = 2f;
-        [BoxGroup("Movement")] public float gravity = -25f;
+        public bool applyMovement = true;
+        public float runSpeed = 2f;
+        public float gravity = -25f;
         public bool IsDead { get; set; }
 
         private void Awake()

@@ -2,9 +2,7 @@
 using ID.Core;
 using ID.UserInterface;
 using ID.Utilities;
-using Sirenix.OdinInspector;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 namespace ID.Managers
 {      
@@ -17,7 +15,7 @@ namespace ID.Managers
     }
     public class GameManager : Singleton<GameManager>
     {
-        [ShowInInspector] public static GameState CurrentGameState;
+        public static GameState CurrentGameState;
         private InfiniteGroundController _infiniteGroundController;
         private MushroomManager _mushroomManager;
         private SpawnPosition _spawnPosition;

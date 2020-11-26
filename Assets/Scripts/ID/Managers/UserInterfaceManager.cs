@@ -1,23 +1,16 @@
-﻿using System;
-using ID.UserInterface;
+﻿using ID.UserInterface;
 using ID.Utilities;
-using Sirenix.OdinInspector;
-using UnityEngine;
 
 namespace ID.Managers
 {
     public class UserInterfaceManager : Singleton<UserInterfaceManager>
     {
-        [ChildGameObjectsOnly]
-        [HideLabel]
+
         public MenuPanel menuPanel;
-        
-        [ChildGameObjectsOnly]
-        [HideLabel]
+
         public MenuPanel inGamePanel;     
         
-        [ChildGameObjectsOnly]   
-        [HideLabel]
+
         public MenuPanel gameOverPanel;
 
         protected override void Awake()

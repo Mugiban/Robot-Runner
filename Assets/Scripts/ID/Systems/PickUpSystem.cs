@@ -1,12 +1,11 @@
 ﻿using System;
-using Sirenix.OdinInspector;
 
 namespace ID.Systems
 {
     [Serializable]
     public class PickUpSystem
     {
-        [ShowInInspector] public int points;
+       public int points;
 
         public static event Action<int> OnPickUp;
 

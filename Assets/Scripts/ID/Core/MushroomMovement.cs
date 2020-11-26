@@ -1,6 +1,5 @@
 ﻿using System;
 using ID.Systems;
-using Sirenix.OdinInspector;
 using UnityEngine;
 
 namespace ID.Core

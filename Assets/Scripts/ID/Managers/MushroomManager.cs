@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using ID.Core;
 using ID.Utilities;
-using Sirenix.OdinInspector;
-using UnityEngine;
 
 namespace ID.Managers
 {

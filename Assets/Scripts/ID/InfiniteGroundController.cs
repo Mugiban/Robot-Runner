@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using Sirenix.OdinInspector;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -13,7 +10,6 @@ namespace ID
         [SerializeField] private float updateTime = .5f;
         private float _updateTimer;
         
-        [AssetList(Path = "/Prefabs/Environment", Tags = "InfiniteGround")]
         public List<InfiniteGround> infiniteGrounds;
         
         public InfiniteGround firstGround;
@@ -54,7 +50,6 @@ namespace ID
             }
         }
 
-        [Button]
         public void Activate()
         {
             firstGround.transform.position = _firstPosition;
@@ -67,7 +62,6 @@ namespace ID
             
         }
 
-        [Button]
         public void Deactivate()
         {
             _isActive = false;

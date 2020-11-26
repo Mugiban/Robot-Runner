@@ -1,14 +1,12 @@
-﻿using System;
-using ID.Managers;
-using Sirenix.OdinInspector;
+﻿using ID.Managers;
 using UnityEngine;
 
 namespace ID.UserInterface
 {
     public class GameOver : MenuPanel
     {
-        [SerializeField] [ChildGameObjectsOnly] private MenuButton playAgainButton = null;
-        [SerializeField] [ChildGameObjectsOnly] private MenuButton backButton = null;
+        [SerializeField]  private MenuButton playAgainButton = null;
+        [SerializeField]  private MenuButton backButton = null;
 
         private void OnEnable()
         {

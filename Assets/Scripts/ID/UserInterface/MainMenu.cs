@@ -1,5 +1,4 @@
 ﻿using ID.Managers;
-using Sirenix.OdinInspector;
 using UnityEditor;
 using UnityEngine;
 
@@ -7,13 +6,13 @@ namespace ID.UserInterface
 {
     public class MainMenu : MenuPanel
     {
-        [ChildGameObjectsOnly]
+
         public MenuButton playButton;
-        [ChildGameObjectsOnly]
+
         public MenuButton optionsButton;
-        [ChildGameObjectsOnly]
+
         public MenuButton controlsButton;
-        [ChildGameObjectsOnly]
+
         public MenuButton exitButton;
 
         private void OnEnable()
