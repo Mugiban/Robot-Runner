@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\delga\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\delga\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Jump the Bomb.-1147154107.00" t="ExcludeRecursive" />
+    <e p="D:\Proyectos Unity\Jump the Bomb" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Plugins" t="Include">
+          <e p="Sirenix" t="Include">
+            <e p="Odin Inspector" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="AssemblyImportSettingsAutomation.cs" t="Include" />
+                  <e p="BuildAOTAutomation.cs" t="Include" />
+                  <e p="EnsureOdinInspectorDefine.cs" t="Include" />
+                  <e p="FixBrokenUnityObjectWrapperDrawer.cs" t="Include" />
+                  <e p="Sirenix.OdinInspector.CompatibilityLayer.Editor.asmdef" t="Include" />
+                  <e p="SyncListDrawer.cs" t="Include" />
+                  <e p="SyncVarAttributeDrawer.cs" t="Include" />
+                  <e p="Vector2IntMinMaxAttributeDrawer.cs" t="Include" />
+                  <e p="VectorIntDrawers.cs" t="Include" />
+                  <e p="VectorIntPropertyResolvers.cs" t="Include" />
+                </e>
+                <e p="SerializedNetworkBehaviour.cs" t="Include" />
+                <e p="Sirenix.OdinInspector.CompatibilityLayer.asmdef" t="Include" />
+                <e p="VectorIntFormatters.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="ID" t="Include">
+            <e p="Core" t="Include">
+              <e p="CoinTrigger.cs" t="Include" />
+              <e p="IamPickUp.cs" t="Include" />
+              <e p="Mushroom.cs" t="Include" />
+              <e p="MushroomMovement.cs" t="Include" />
+              <e p="Player.cs" t="Include" />
+              <e p="Spike.cs" t="Include" />
+            </e>
+            <e p="InfiniteGround.cs" t="Include" />
+            <e p="InfiniteGroundController.cs" t="Include" />
+            <e p="Managers" t="Include">
+              <e p="AudioManager.cs" t="Include" />
+              <e p="GameManager.cs" t="Include" />
+              <e p="MushroomManager.cs" t="Include" />
+              <e p="UserInterfaceManager.cs" t="Include" />
+            </e>
+            <e p="MushroomDie.cs" t="Include" />
+            <e p="PlayerData.cs" t="Include" />
+            <e p="PlayerDeathTrigger.cs" t="Include" />
+            <e p="RestartSceneOnTrigger.cs" t="Include" />
+            <e p="SpawnPosition.cs" t="Include" />
+            <e p="Systems" t="Include">
+              <e p="CharacterController2D.cs" t="Include" />
+              <e p="PickUpSystem.cs" t="Include" />
+              <e p="PlayerAnimationSystem.cs" t="Include" />
+              <e p="PlayerMovementSystem.cs" t="Include" />
+            </e>
+            <e p="UserInterface" t="Include">
+              <e p="Fade.cs" t="Include" />
+              <e p="GameOver.cs" t="Include" />
+              <e p="InGame.cs" t="Include" />
+              <e p="MainMenu.cs" t="Include" />
+              <e p="MenuButton.cs" t="Include" />
+              <e p="MenuPanel.cs" t="Include" />
+              <e p="PointsDisplay.cs" t="Include" />
+            </e>
+            <e p="Utilities" t="Include">
+              <e p="DontDestroyOnLoad.cs" t="Include" />
+              <e p="ScriptableObjectExtensions.cs" t="Include" />
+              <e p="Singleton.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Sprites" t="Include">
+          <e p="Enviro" t="Include">
+            <e p="BackGroundProps" t="Include">
+              <e p="#cbc2a3.txt" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+            <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+            <e p="TMP_Bitmap.shader" t="Include" />
+            <e p="TMP_SDF Overlay.shader" t="Include" />
+            <e p="TMP_SDF SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+            <e p="TMP_SDF-Mobile SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface.shader" t="Include" />
+            <e p="TMP_SDF.shader" t="Include" />
+            <e p="TMP_Sprite.shader" t="Include" />
+            <e p="TMPro.cginc" t="Include" />
+            <e p="TMPro_Mobile.cginc" t="Include" />
+            <e p="TMPro_Properties.cginc" t="Include" />
+            <e p="TMPro_Surface.cginc" t="Include" />
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Jump the Bomb.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Sirenix.OdinInspector.CompatibilityLayer.csproj" t="IncludeRecursive" />
+      <e p="Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj" t="IncludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
