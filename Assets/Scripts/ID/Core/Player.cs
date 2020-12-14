@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using ID.Managers;
 using ID.Systems;
 using UnityEngine;
 
@@ -17,7 +18,6 @@ namespace ID.Core
         [HideInInspector] public PlayerMovementSystem playerMovementSystem;
         [HideInInspector] public PlayerAnimationSystem playerAnimationSystem;
          public PickUpSystem pickUpSystem;
-
          public bool isDead;
         
         private void Awake()
@@ -33,7 +33,7 @@ namespace ID.Core
             playerMovementSystem = new PlayerMovementSystem(this);
             playerAnimationSystem = new PlayerAnimationSystem(this, playerMovementSystem);
             pickUpSystem = new PickUpSystem();
-            _audioSource.volume = .1f;
+            _audioSource.volume = .03f;
             StartCoroutine(PlayFootStepCoroutine());
             //StartCoroutine(PlayFootStep());
         }
@@ -52,10 +52,15 @@ namespace ID.Core
         public void Deactivate(bool isStartGame)
         {
             isDead = !isStartGame;
+            if (isDead)
+            {
+                AudioManager.PlaySound(playerData.deathSound, .4f);
+                playerAnimationSystem.AnimateDeath();
+            }
             playerData.applyMovement = false;
             Invoke(nameof(ApplyGravity), .5f);
             pickUpSystem.Reset();
-            _audioSource.volume = .1f;
+            _audioSource.volume = .03f;
         }
         
         private IEnumerator PlayFootStepCoroutine()
@@ -83,11 +88,12 @@ namespace ID.Core
         {
             playerData.applyMovement = true;
             playerData.applyGravity = true;
-            _audioSource.volume = .2f;
+            _audioSource.volume = .1f;
         }
 
         public void SetPosition(Vector3 spawnPosition)
         {
+            isDead = false;
             transform.position = spawnPosition;
         }
 

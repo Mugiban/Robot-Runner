@@ -34,12 +34,14 @@ namespace ID.UserInterface
 
         public virtual void OnPointerEnter(PointerEventData eventData)
         {
-            AudioManager.PlaySound(hoverClip, .15f);
+            if(hoverClip != null)
+                AudioManager.PlaySound(hoverClip, .15f);
         }
 
         public void Click()
         {
-            AudioManager.PlaySound(clickClip, .15f);
+            if(clickClip != null)
+                AudioManager.PlaySound(clickClip, .15f);
         }
     }
 }

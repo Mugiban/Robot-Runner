@@ -22,10 +22,12 @@ namespace ID.Systems
         private readonly AudioSource _audioSource;
 
         private PlayerData _playerData;
+        private Player _player;
 
 
         public PlayerMovementSystem(Player player)
         {
+            _player = player;
             _controller = player.GetComponent<CharacterController2D>();
             _audioSource = player.GetComponent<AudioSource>();
             _rigidbody2D = player.GetComponent<Rigidbody2D>();

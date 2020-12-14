@@ -24,8 +24,9 @@ namespace ID
         public float coyoteTime = .15f;
 
         public float groundTime = .15f;
-        
-        [Header("Sounds")]
+
+        [Header("Sounds")] 
+        public AudioClip deathSound;
         public AudioClip jumpSound;
         
         public AudioClip leftFootStepSound;

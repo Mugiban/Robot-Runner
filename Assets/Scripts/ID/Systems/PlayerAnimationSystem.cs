@@ -11,6 +11,7 @@ namespace ID.Systems
         private PlayerMovementSystem _playerMovementSystem;
         private static readonly int VelocityY = Animator.StringToHash("VelocityY");
         private static readonly int IsGrounded = Animator.StringToHash("isGrounded");
+        private static readonly int Die = Animator.StringToHash("Die");
 
 
         public PlayerAnimationSystem(Player player, PlayerMovementSystem playerMovementSystem)
@@ -26,6 +27,11 @@ namespace ID.Systems
 
             var isGrounded = _playerMovementSystem.IsGrounded;
             _animator.SetBool(IsGrounded, isGrounded);
+        }
+
+        public void AnimateDeath()
+        {
+            _animator.SetTrigger(Die);
         }
 
     }

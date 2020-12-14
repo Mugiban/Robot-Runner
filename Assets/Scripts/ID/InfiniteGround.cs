@@ -6,7 +6,7 @@ namespace ID
     [Serializable]
     public class InfiniteGround : MonoBehaviour
     {
-        [Range(0,5f)] public float speed = .07f;
+        [Range(1,20f)] public float speed = 5f;
         
         private float _currentSpeed;
 
@@ -17,7 +17,7 @@ namespace ID
 
         private void Update()
         {
-            transform.position += Vector3.left * _currentSpeed;
+            transform.position += Vector3.left * (_currentSpeed * Time.deltaTime);
         }
 
         public void StopMovement()

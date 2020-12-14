@@ -964,7 +964,7 @@ PrefabInstance:
         type: 3}
       propertyPath: clickClip
       value: 
-      objectReference: {fileID: 8300000, guid: 6c8706d0d14149b44beec2f2d06ecfc1, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 6671244120151880455, guid: e02beef990e15cb4c8959d155ec744d0,
         type: 3}
       propertyPath: m_AnchorMax.y

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e30aff12f2da13e42ad068c30b2b33a5, type: 3}
   m_Name: PlayerData
   m_EditorClassIdentifier: 
-  applyMovement: 1
+  applyMovement: 0
   movementSpeed: 7
   applyGravity: 1
   maxJumpHeight: 5.8
@@ -21,6 +21,7 @@ MonoBehaviour:
   maxVelocityY: 15
   coyoteTime: 0.15
   groundTime: 0.15
+  deathSound: {fileID: 8300000, guid: 8e8c1076d89832f43b22139cb8f55aca, type: 3}
   jumpSound: {fileID: 8300000, guid: 6e8f4fdb6ea50b341a7a08017bf3f1ba, type: 3}
   leftFootStepSound: {fileID: 8300000, guid: 9cba1bc4dd2fda04bace3cbdc21cb2f8, type: 3}
   rightFootStepSound: {fileID: 8300000, guid: d56ef1900d4a8a446ba7bc7f6df53740, type: 3}
