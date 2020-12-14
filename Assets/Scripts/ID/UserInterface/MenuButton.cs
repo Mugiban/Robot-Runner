@@ -1,17 +1,23 @@
 ﻿using System;
+using ID.Managers;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 namespace ID.UserInterface
 {
-    [RequireComponent(typeof(Button))]
-    public class MenuButton : MonoBehaviour
+    [RequireComponent(typeof(Button), typeof(RectTransform))]
+    public class MenuButton : MonoBehaviour, IPointerEnterHandler
     {
-        private Button _button;
+        protected RectTransform _rect;
+        protected Button _button;
+        public AudioClip hoverClip;
+        public AudioClip clickClip;
 
         private void OnEnable()
         {
+            _rect = GetComponent<RectTransform>();
             _button = GetComponent<Button>();
         }
         public void AddListener(UnityAction action)
@@ -25,6 +31,16 @@ namespace ID.UserInterface
             if(_button == null) _button = GetComponent<Button>();
             _button.onClick.RemoveListener(action);
         }
-    } 
+
+        public virtual void OnPointerEnter(PointerEventData eventData)
+        {
+            AudioManager.PlaySound(hoverClip, .15f);
+        }
+
+        public void Click()
+        {
+            AudioManager.PlaySound(clickClip, .15f);
+        }
+    }
 }
 

@@ -45,12 +45,12 @@ namespace ID.Managers
             return audioSource;
         }
 
-        public static void PlaySound(AudioClip audioClip)
+        public static void PlaySound(AudioClip audioClip, float newVolume = .5f)
         {
             var audioSource = Instance.GetAudioSource();
             audioSource.clip = audioClip;
-            audioSource.volume = .5f;
-            audioSource.pitch = UnityEngine.Random.Range(.98f, 1.02f);
+            audioSource.volume = newVolume;
+            audioSource.pitch = Random.Range(.98f, 1.02f);
             audioSource.loop = false;
             audioSource.PlayOneShot(audioClip);
         }

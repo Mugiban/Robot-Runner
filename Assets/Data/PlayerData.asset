@@ -21,3 +21,7 @@ MonoBehaviour:
   maxVelocityY: 15
   coyoteTime: 0.15
   groundTime: 0.15
+  jumpSound: {fileID: 8300000, guid: 6e8f4fdb6ea50b341a7a08017bf3f1ba, type: 3}
+  leftFootStepSound: {fileID: 8300000, guid: 9cba1bc4dd2fda04bace3cbdc21cb2f8, type: 3}
+  rightFootStepSound: {fileID: 8300000, guid: d56ef1900d4a8a446ba7bc7f6df53740, type: 3}
+  footStepsTimeStamp: 0.5

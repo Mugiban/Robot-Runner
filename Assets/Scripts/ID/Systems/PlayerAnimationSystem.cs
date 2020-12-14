@@ -1,4 +1,5 @@
 ﻿using System;
+using ID.Core;
 using UnityEngine;
 
 namespace ID.Systems
@@ -12,10 +13,10 @@ namespace ID.Systems
         private static readonly int IsGrounded = Animator.StringToHash("isGrounded");
 
 
-        public PlayerAnimationSystem(PlayerMovementSystem playerMovementSystem, Animator animator)
+        public PlayerAnimationSystem(Player player, PlayerMovementSystem playerMovementSystem)
         {
             _playerMovementSystem = playerMovementSystem;
-            _animator = animator;
+            _animator = player.GetComponent<Animator>();
         }
 
         public void LateUpdate()

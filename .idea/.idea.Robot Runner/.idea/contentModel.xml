@@ -4,15 +4,34 @@
     <e p="C:\Users\delga\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
     <e p="C:\Users\delga\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Robot Runner.-976374729.00" t="ExcludeRecursive" />
     <e p="D:\Proyectos Unity\Robot Runner" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Plugins" t="Include">
+          <e p="LeanTween" t="Include">
+            <e p="Editor" t="Include">
+              <e p="LeanTweenDocumentationEditor.cs" t="Include" />
+            </e>
+            <e p="Framework" t="Include">
+              <e p="LeanAudio.cs" t="Include" />
+              <e p="LeanSmooth.cs" t="Include" />
+              <e p="LeanTest.cs" t="Include" />
+              <e p="LeanTween.cs" t="Include" />
+              <e p="LeanTweenExt.cs" t="Include" />
+              <e p="LTDescr.cs" t="Include" />
+              <e p="LTDescrOptional.cs" t="Include" />
+              <e p="LTSeq.cs" t="Include" />
+            </e>
+            <e p="License.txt" t="Include" />
+            <e p="ReadMe.txt" t="Include" />
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="ID" t="Include">
             <e p="Core" t="Include">
               <e p="CoinTrigger.cs" t="Include" />
               <e p="IamPickUp.cs" t="Include" />
-              <e p="Mushroom.cs" t="Include" />
-              <e p="MushroomMovement.cs" t="Include" />
               <e p="Player.cs" t="Include" />
               <e p="Spike.cs" t="Include" />
             </e>
@@ -20,13 +39,11 @@
             <e p="InfiniteGroundController.cs" t="Include" />
             <e p="Managers" t="Include">
               <e p="AudioManager.cs" t="Include" />
+              <e p="CoinManager.cs" t="Include" />
               <e p="GameManager.cs" t="Include" />
-              <e p="MushroomManager.cs" t="Include" />
               <e p="UserInterfaceManager.cs" t="Include" />
             </e>
-            <e p="MushroomDie.cs" t="Include" />
             <e p="PlayerData.cs" t="Include" />
-            <e p="PlayerDeathTrigger.cs" t="Include" />
             <e p="RestartSceneOnTrigger.cs" t="Include" />
             <e p="SpawnPosition.cs" t="Include" />
             <e p="Systems" t="Include">
@@ -43,9 +60,10 @@
               <e p="MenuButton.cs" t="Include" />
               <e p="MenuPanel.cs" t="Include" />
               <e p="PointsDisplay.cs" t="Include" />
+              <e p="ScaleAnimation.cs" t="Include" />
+              <e p="ToggleMenuButton.cs" t="Include" />
             </e>
             <e p="Utilities" t="Include">
-              <e p="DontDestroyOnLoad.cs" t="Include" />
               <e p="ScriptableObjectExtensions.cs" t="Include" />
               <e p="Singleton.cs" t="Include" />
             </e>

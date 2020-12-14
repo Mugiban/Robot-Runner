@@ -9,43 +9,40 @@ namespace ID.UserInterface
 
         public MenuButton playButton;
 
-        public MenuButton optionsButton;
-
-        public MenuButton controlsButton;
+        public ToggleMenuButton controlsButton;
 
         public MenuButton exitButton;
+
+        public AudioClip backClip;
 
         private void OnEnable()
         {
             playButton.AddListener(StartGame);
-            optionsButton.AddListener(OpenOptionsPanel);
-            controlsButton.AddListener(OpenControlsPanel);
+            controlsButton.AddListener(HandleControlsPanel);
             exitButton.AddListener(ExitGame);
         }
 
         private void OnDisable()
         {
             playButton.RemoveListener(StartGame);
-            optionsButton.RemoveListener(OpenOptionsPanel);
-            controlsButton.RemoveListener(OpenControlsPanel);
+            controlsButton.RemoveListener(HandleControlsPanel);
             exitButton.RemoveListener(ExitGame);
         }
 
         void StartGame()
         {
-            GameManager.Instance.ChangeState(GameState.Playing);
+            playButton.Click();
+            GameManager.Instance.StartGame(false);
         }
-        private void OpenOptionsPanel()
+
+        private void HandleControlsPanel()
         {
-            //TODO
-        }
-        private void OpenControlsPanel()
-        {
-           //TODO
+            controlsButton.Toggle();
         }
         
         void ExitGame()
         {
+            AudioManager.PlaySound(backClip, .3f);
             Application.Quit(0);
             #if UNITY_EDITOR
             EditorApplication.isPlaying = false;

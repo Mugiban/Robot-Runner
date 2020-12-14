@@ -1,5 +1,132 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e3b9d6ac-f715-479a-a8ad-072f12760746" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/ToggleMenuButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/ToggleMenuButton.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Robot Runner/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Robot Runner/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Robot Runner/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Robot Runner/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Robot Runner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Robot Runner/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/PlayerData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/PlayerData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Interactables/Mushroom.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Interactables/Mushroom.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/User Interface/Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/User Interface/Canvas.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/User Interface/MenuButton.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/User Interface/MenuButton.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Demo.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Managers.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Managers.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ID/Core/CoinTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ID/Core/CoinTrigger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ID/Core/Mushroom.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ID/Core/Mushroom.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ID/Core/MushroomMovement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ID/Core/MushroomMovement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ID/Core/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ID/Core/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ID/InfiniteGround.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ID/InfiniteGround.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ID/InfiniteGroundController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ID/InfiniteGroundController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ID/Managers/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ID/Managers/AudioManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ID/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ID/Managers/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ID/Managers/MushroomManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ID/Managers/MushroomManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ID/MushroomDie.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ID/MushroomDie.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ID/PlayerData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ID/PlayerData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ID/PlayerDeathTrigger.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ID/PlayerDeathTrigger.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ID/Systems/PlayerAnimationSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ID/Systems/PlayerAnimationSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ID/Systems/PlayerMovementSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ID/Systems/PlayerMovementSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/GameOver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/GameOver.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/MainMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/MenuButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/MenuButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/PointsDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/PointsDisplay.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ID/Utilities/DontDestroyOnLoad.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ID/Utilities/DontDestroyOnLoad.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Mouth Interface (10).wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Mouth Interface (10).wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Mouth Interface (8).wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Mouth Interface (8).wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Pop (4).wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Pop (4).wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/GUI.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/GUI.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/GUI.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/GUI.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/ScaleAnimation.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/ID/Core/MushroomMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ID/Managers/MushroomManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ID/Managers/UserInterfaceManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ID/Systems/PickUpSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/Fade.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/GameOver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/AutoScaleAnimationImage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/ScaleAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ID/InfiniteGround.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ID/InfiniteGroundController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ID/Managers/AudioManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/PointsDisplay.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/ToggleMenuButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/MenuButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/MainMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/LocalizedText.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LocalizedText.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MoBe.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MonoBe.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Mono.cs" />
+        <option value="$PROJECT_DIR$/Assets/CoinManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ID/Core/Mushroom.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ID/Core/CoinTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ID/Managers/CoinManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ID/PlayerData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ID/Systems/PlayerMovementSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ID/Systems/PlayerAnimationSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ID/Managers/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ID/Core/Player.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kq36nhG9LUHmYqMEAwX4MQLU7y" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="RiderUnityFileTemplatesSettings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
@@ -19,5 +146,54 @@
       </option>
       <method v="2" />
     </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e3b9d6ac-f715-479a-a8ad-072f12760746" name="Default Changelist" comment="" />
+      <created>1606414126708</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606414126708</updated>
+      <workItem from="1606414135154" duration="876000" />
+      <workItem from="1606490287211" duration="8074000" />
+      <workItem from="1607043041773" duration="472000" />
+      <workItem from="1607961053268" duration="4763000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="708" y="343" key="#Notifications" timestamp="1607961780948">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="708" y="343" key="#Notifications/-1360.0.1360.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607961780948" />
+    <state x="853" y="212" key="SettingsEditor" timestamp="1607043513014">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="853" y="212" key="SettingsEditor/-1360.310.1360.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607043513014" />
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1607965037189">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/-1360.0.1360.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607965037189" />
   </component>
 </project>

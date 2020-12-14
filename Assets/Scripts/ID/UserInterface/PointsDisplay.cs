@@ -1,5 +1,4 @@
-﻿using ID.Core;
-using ID.Systems;
+﻿using ID.Systems;
 using TMPro;
 using UnityEngine;
 

@@ -17,8 +17,8 @@ namespace ID.Core
         public int Value => value;
         
         private Coin _coin;
-        
-        void Start()
+
+        private void Start()
         {
             _spriteRenderer = GetComponent<SpriteRenderer>();
             _circleCollider2D = GetComponent<CircleCollider2D>();
@@ -30,7 +30,7 @@ namespace ID.Core
         {
             if (other.CompareTag("Player"))
             {
-                PickUp(other.GetComponent<Player>().PickUpSystem);
+                PickUp(other.GetComponent<Player>().pickUpSystem);
             }
         }
         public void PickUp(PickUpSystem pickUpSystem)

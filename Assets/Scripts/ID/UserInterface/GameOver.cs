@@ -22,12 +22,12 @@ namespace ID.UserInterface
 
         private static void PlayAgain()
         {
-            GameManager.Instance.ChangeState(GameState.Playing);
+            GameManager.Instance.StartGame(true);
         }
 
         private static void BackToMainMenu()
         {
-            GameManager.Instance.ChangeState(GameState.MainMenu);
+            GameManager.Instance.BackToMainMenu();
         }
     }
 }

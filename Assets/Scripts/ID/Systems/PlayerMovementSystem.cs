@@ -1,4 +1,5 @@
 ﻿using System;
+using ID.Core;
 using UnityEngine;
 
 namespace ID.Systems
@@ -12,26 +13,24 @@ namespace ID.Systems
         private readonly float _gravity;
         private readonly float _maxJumpVelocity;
         private readonly float _minJumpVelocity;
-        private float groundTimer;
-        private float coyoteTimer;
+        private float _groundTimer;
+        private float _coyoteTimer;
         private Vector2 _movement;
 
         private readonly Rigidbody2D _rigidbody2D;
         private readonly CharacterController2D _controller;
+        private readonly AudioSource _audioSource;
 
         private PlayerData _playerData;
 
 
-        public PlayerMovementSystem(CharacterController2D controller2D, Rigidbody2D rigidbody, PlayerData playerData)
+        public PlayerMovementSystem(Player player)
         {
-            _controller = controller2D;
-            _rigidbody2D = rigidbody;
-            if (playerData == null)
-            {
-                throw new NullReferenceException("There is no player data.");
-            }
-            _playerData = playerData;
-            
+            _controller = player.GetComponent<CharacterController2D>();
+            _audioSource = player.GetComponent<AudioSource>();
+            _rigidbody2D = player.GetComponent<Rigidbody2D>();
+            _playerData = player.playerData;
+
             _rigidbody2D.isKinematic = true;
             _rigidbody2D.gravityScale = 0;
             
@@ -70,32 +69,32 @@ namespace ID.Systems
 
         private void HandleJump()
         {
-            groundTimer -= Time.deltaTime;
-            coyoteTimer -= Time.deltaTime;
+            _groundTimer -= Time.deltaTime;
+            _coyoteTimer -= Time.deltaTime;
 
-            if (Input.GetKeyUp(KeyCode.Space) || Input.GetKeyUp(KeyCode.W))
+            if (Input.GetKeyUp(KeyCode.Space) || Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.UpArrow))
             {
                 if (_movement.y > _minJumpVelocity)
                 {
                     _movement.y = _minJumpVelocity;
-                    groundTimer = 0;
-                    coyoteTimer = 0;
+                    _groundTimer = 0;
+                    _coyoteTimer = 0;
                 }
             }
 
-            if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W))
+            if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W)|| Input.GetKeyDown(KeyCode.UpArrow))
             {
-                groundTimer = _playerData.groundTime;
+                _groundTimer = _playerData.groundTime;
             }
 
             if (_controller.isGrounded)
             {
-                coyoteTimer = _playerData.coyoteTime;
+                _coyoteTimer = _playerData.coyoteTime;
             }
 
 
 
-            if (groundTimer > 0 && coyoteTimer > 0)
+            if (_groundTimer > 0 && _coyoteTimer > 0)
             {
                 Jump(_maxJumpVelocity);
             }
@@ -104,8 +103,10 @@ namespace ID.Systems
         public void Jump(float jumpForce)
         {
             _movement.y = jumpForce;
-            groundTimer = 0;
-            coyoteTimer = 0;
+            _groundTimer = 0;
+            _coyoteTimer = 0;
+            _audioSource.PlayOneShot(_playerData.jumpSound);
+            
         }
     } 
 }

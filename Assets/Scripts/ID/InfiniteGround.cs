@@ -7,29 +7,27 @@ namespace ID
     public class InfiniteGround : MonoBehaviour
     {
         [Range(0,5f)] public float speed = .07f;
-
-        [SerializeField] private float lifeTime = 30f;
-        private float _lifeTimer = 0;
-        public float DefaultSpeed = .1f;
+        
+        private float _currentSpeed;
 
         private void Start()
         {
-            _lifeTimer = 0;
+            ActivateMovement();
         }
 
         private void Update()
         {
-            transform.position += Vector3.left * speed;
-            _lifeTimer += Time.deltaTime;
-            if (_lifeTimer >= lifeTime)
-            {
-                DestroyImmediate(gameObject);
-            }
+            transform.position += Vector3.left * _currentSpeed;
         }
 
-        public void SetLifeTime(float newLifeTime)
+        public void StopMovement()
         {
-            lifeTime = newLifeTime;
+            _currentSpeed = 0;
+        }
+
+        public void ActivateMovement()
+        {
+            _currentSpeed = speed;
         }
     } 
 }
