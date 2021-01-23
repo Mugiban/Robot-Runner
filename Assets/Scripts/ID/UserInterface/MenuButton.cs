@@ -35,7 +35,7 @@ namespace ID.UserInterface
         public virtual void OnPointerEnter(PointerEventData eventData)
         {
             if(hoverClip != null)
-                AudioManager.PlaySound(hoverClip, .15f);
+                AudioManager.PlaySound(hoverClip, .1f);
         }
 
         public void Click()

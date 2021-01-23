@@ -100,6 +100,12 @@ namespace ID.Managers
             _coinManager.RestorePosition();
             ChangeState(GameState.Playing);
         }
+
+        public void CompleteLevel(int level)
+        {
+            fade.FadeIn();
+            _player.Deactivate(true);
+        }
     } 
 }
 

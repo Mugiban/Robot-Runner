@@ -74,7 +74,7 @@ namespace ID.Systems
             _groundTimer -= Time.deltaTime;
             _coyoteTimer -= Time.deltaTime;
 
-            if (Input.GetKeyUp(KeyCode.Space) || Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.UpArrow))
+            if (Input.GetKeyUp(KeyCode.Space) || Input.GetKeyUp(KeyCode.W))
             {
                 if (_movement.y > _minJumpVelocity)
                 {
@@ -84,7 +84,7 @@ namespace ID.Systems
                 }
             }
 
-            if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W)|| Input.GetKeyDown(KeyCode.UpArrow))
+            if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W))
             {
                 _groundTimer = _playerData.groundTime;
             }

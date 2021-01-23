@@ -3,11 +3,32 @@
   <component name="ContentModelStore">
     <e p="C:\Users\delga\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
     <e p="C:\Users\delga\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Robot Runner.-976374729.00" t="ExcludeRecursive" />
+    <e p="D:\Proyectos Unity\ID-Utilities\Assets\ID-Utilities\Editor" t="Include">
+      <e p="com.mugogames.utilities.editor.asmdef" t="Include" />
+      <e p="ToolbarCallback.cs" t="Include" />
+      <e p="ToolbarEditor.cs" t="Include" />
+      <e p="ToolbarExtender.cs" t="Include" />
+      <e p="ToolbarStyles.cs" t="Include" />
+    </e>
+    <e p="D:\Proyectos Unity\ID-Utilities\Assets\ID-Utilities\Runtime" t="Include">
+      <e p="com.mugogames.utilities.asmdef" t="Include" />
+      <e p="DontDestroyOnLoad.cs" t="Include" />
+      <e p="GameObjectExtensions.cs" t="Include" />
+      <e p="InvertedTimer.cs" t="Include" />
+      <e p="ListExtensions.cs" t="Include" />
+      <e p="ScriptableObjectExtensions.cs" t="Include" />
+      <e p="Singleton.cs" t="Include" />
+      <e p="StringExtensions.cs" t="Include" />
+      <e p="Timer.cs" t="Include" />
+      <e p="TransformExtensions.cs" t="Include" />
+      <e p="VectorExtensions.cs" t="Include" />
+    </e>
     <e p="D:\Proyectos Unity\Robot Runner" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="FinishLevelTrigger.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="LeanTween" t="Include">
             <e p="Editor" t="Include">
@@ -30,6 +51,7 @@
         <e p="Scripts" t="Include">
           <e p="ID" t="Include">
             <e p="Core" t="Include">
+              <e p="Coin.cs" t="Include" />
               <e p="CoinTrigger.cs" t="Include" />
               <e p="IamPickUp.cs" t="Include" />
               <e p="Player.cs" t="Include" />
@@ -108,6 +130,8 @@
           </e>
         </e>
       </e>
+      <e p="com.mugogames.utilities.csproj" t="IncludeRecursive" />
+      <e p="com.mugogames.utilities.editor.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Robot Runner.sln" t="IncludeFlat" />

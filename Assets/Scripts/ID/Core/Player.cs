@@ -35,7 +35,6 @@ namespace ID.Core
             pickUpSystem = new PickUpSystem();
             _audioSource.volume = .03f;
             StartCoroutine(PlayFootStepCoroutine());
-            //StartCoroutine(PlayFootStep());
         }
 
         private void Update()

@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "com.mugogames.utilities": {
+      "version": "file:D:/Proyectos Unity/ID-Utilities/Assets/ID-Utilities",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
     "com.unity.2d.animation": {
       "version": "3.2.5",
       "depth": 0,
