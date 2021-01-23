@@ -40,7 +40,6 @@ namespace ID.Core
         private void Update()
         {
             playerMovementSystem.Update();
-            
         }
 
         private void LateUpdate()
@@ -51,13 +50,15 @@ namespace ID.Core
         public void Deactivate(bool isStartGame)
         {
             isDead = !isStartGame;
+            
             if (isDead)
             {
                 AudioManager.PlaySound(playerData.deathSound, .4f);
                 playerAnimationSystem.AnimateDeath();
             }
+            
             playerData.applyMovement = false;
-            Invoke(nameof(ApplyGravity), .5f);
+            Invoke(nameof(ApplyGravity), 1f);
             pickUpSystem.Reset();
             _audioSource.volume = .03f;
         }
@@ -95,6 +96,5 @@ namespace ID.Core
             isDead = false;
             transform.position = spawnPosition;
         }
-
     }
 }

@@ -59,7 +59,7 @@ namespace ID.Managers
         {
             _infiniteGroundController.Activate();
             _player.Deactivate(true);
-            _player.SetPosition(_spawnPosition.transform.position);
+            _player.SetPosition(_spawnPosition.transform.position + Vector3.up * 2f);
             Invoke(nameof(ShowMain), .4f);
         }
 
@@ -73,7 +73,7 @@ namespace ID.Managers
             fade.FadeOut();
             
             _infiniteGroundController.Deactivate();
-            
+            _player.SetPosition(_spawnPosition.transform.position);
             _player.Activate();
         }
 
@@ -104,7 +104,10 @@ namespace ID.Managers
         public void CompleteLevel(int level)
         {
             fade.FadeIn();
+            _player.SetPosition(_spawnPosition.transform.position);
             _player.Deactivate(true);
+            _coinManager.RestorePosition();
+            Invoke(nameof(ShowMainMenu), 1f);
         }
     } 
 }

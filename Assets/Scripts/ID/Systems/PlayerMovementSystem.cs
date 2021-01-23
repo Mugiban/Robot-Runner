@@ -43,6 +43,7 @@ namespace ID.Systems
         
         public void Update()
         {
+            if (_player.isDead) return;
             if (_controller.isGrounded || _controller.collisionState.above)
             {
                 _movement.y = 0f;

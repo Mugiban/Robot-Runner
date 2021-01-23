@@ -1,4 +1,5 @@
 ﻿using System;
+using ID.Core;
 using ID.Managers;
 using UnityEngine;
 
@@ -12,11 +13,11 @@ namespace ID
         {
             if (other.CompareTag("Player"))
             {
-                FinishLevel();
+                FinishLevel(other.GetComponent<Player>());
             }
         }
 
-        private void FinishLevel()
+        private void FinishLevel(Player player)
         {
             GameManager.Instance.CompleteLevel(level);
         }

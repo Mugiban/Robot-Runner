@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e30aff12f2da13e42ad068c30b2b33a5, type: 3}
   m_Name: PlayerData
   m_EditorClassIdentifier: 
-  applyMovement: 0
+  applyMovement: 1
   movementSpeed: 7
   applyGravity: 1
   maxJumpHeight: 5.8

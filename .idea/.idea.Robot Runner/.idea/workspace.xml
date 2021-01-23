@@ -20,23 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3b9d6ac-f715-479a-a8ad-072f12760746" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Robot Runner/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Robot Runner/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Robot Runner/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Robot Runner/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Robot Runner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Robot Runner/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Robot Runner/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Robot Runner/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/PlayerData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/PlayerData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FinishLevelTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FinishLevelTrigger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Demo.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Managers.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Managers.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ID/Core/CoinTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ID/Core/CoinTrigger.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ID/Core/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ID/Core/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ID/Managers/CoinManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ID/Managers/CoinManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ID/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ID/Managers/GameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ID/Systems/PlayerMovementSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ID/Systems/PlayerMovementSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/MenuButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/MenuButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/mushroom.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/mushroom/mushroom_spritesheet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/mushroom/mushroom_spritesheet.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/Fade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/Fade.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +51,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ID/Managers/MushroomManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ID/Managers/UserInterfaceManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ID/Systems/PickUpSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/Fade.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/GameOver.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/AutoScaleAnimationImage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/ScaleAnimation.cs" />
@@ -77,10 +70,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ID/PlayerData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ID/InfiniteGround.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/MenuButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ID/Systems/PlayerMovementSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ID/Core/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ID/Core/CoinTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ID/Managers/CoinManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ID/Systems/PlayerMovementSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/CameraController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ID/Core/CoinTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/Fade.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ID/Core/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/FinishLevelTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ID/Managers/GameManager.cs" />
       </list>
@@ -131,7 +126,7 @@
       <workItem from="1607043041773" duration="472000" />
       <workItem from="1607961053268" duration="10398000" />
       <workItem from="1608144991873" duration="629000" />
-      <workItem from="1611412694020" duration="3467000" />
+      <workItem from="1611412694020" duration="6741000" />
     </task>
     <servers />
   </component>
@@ -164,14 +159,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="853" y="212" key="SettingsEditor/-1360.310.1360.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607043513014" />
-    <state x="92" y="93" width="1736" height="865" key="VCS.FileHistoryDialog" timestamp="1611415208915">
+    <state x="92" y="93" width="1736" height="865" key="VCS.FileHistoryDialog" timestamp="1611417630141">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/-1360.0.1360.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607965037189" />
-    <state x="92" y="93" width="1736" height="865" key="VCS.FileHistoryDialog/-1360.0.1360.738/0.0.1920.1050@0.0.1920.1050" timestamp="1611415208915" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1607968387979">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="92" y="93" width="1736" height="865" key="VCS.FileHistoryDialog/-1360.0.1360.738/0.0.1920.1050@0.0.1920.1050" timestamp="1611417630141" />
+    <state x="616" y="242" key="run.anything.popup" timestamp="1611417607156">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="616" y="240" key="run.anything.popup/-1360.0.1360.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607968387979" />
+    <state x="616" y="242" key="run.anything.popup/-1360.0.1360.738/0.0.1920.1050@0.0.1920.1050" timestamp="1611417607156" />
   </component>
 </project>

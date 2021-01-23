@@ -543,11 +543,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1809320826, guid: e02beef990e15cb4c8959d155ec744d0, type: 3}
       propertyPath: fadeInTime
-      value: 0.25
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1809320826, guid: e02beef990e15cb4c8959d155ec744d0, type: 3}
       propertyPath: fadeOutTime
-      value: 0.25
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1995111793, guid: e02beef990e15cb4c8959d155ec744d0, type: 3}
       propertyPath: m_SizeDelta.x

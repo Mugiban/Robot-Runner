@@ -45,7 +45,6 @@ namespace ID.Core
             _spriteRenderer.color = _coinManager.superCoinColor;
             value = 5;
             transform.localScale *= 1.1f;
-            Debug.Log(_coinManager.superCoinColor);
         }
 
         private void OnTriggerEnter2D(Collider2D other)
