@@ -104,7 +104,6 @@ namespace ID.Managers
         public void CompleteLevel(int level)
         {
             fade.FadeIn();
-            _player.SetPosition(_spawnPosition.transform.position);
             _player.Deactivate(true);
             _coinManager.RestorePosition();
             Invoke(nameof(ShowMainMenu), 1f);

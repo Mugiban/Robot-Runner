@@ -20,17 +20,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3b9d6ac-f715-479a-a8ad-072f12760746" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Robot Runner/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Robot Runner/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Robot Runner/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Robot Runner/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Robot Runner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Robot Runner/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/PlayerData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/PlayerData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FinishLevelTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FinishLevelTrigger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Standard.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Standard.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Interactables/Platform.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Interactables/Platform.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Demo.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Managers.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Managers.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ID/Core/CoinTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ID/Core/CoinTrigger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ID/Core/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ID/Core/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ID/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ID/Managers/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ID/Systems/PlayerMovementSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ID/Systems/PlayerMovementSystem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/Fade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/Fade.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Enviro/BackGroundProps/BGProps02/BGProps02_01.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Enviro/BackGroundProps/BGProps02/BGProps02_01.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Enviro/BackGroundProps/BGProps02/BGProps02_02.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Enviro/BackGroundProps/BGProps02/BGProps02_02.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Enviro/BackGroundProps/BGProps02/BGProps02_03.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Enviro/BackGroundProps/BGProps02/BGProps02_03.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Enviro/BackGroundProps/BGProps02/BGProps02_04.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Enviro/BackGroundProps/BGProps02/BGProps02_04.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Enviro/BackGroundProps/BGProps02/BGProps02_05.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Enviro/BackGroundProps/BGProps02/BGProps02_05.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Enviro/BackGroundProps/BGProps02/BGProps02_06.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Enviro/BackGroundProps/BGProps02/BGProps02_06.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Enviro/BackGroundProps/BGProps02/BGProps02_07.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Enviro/BackGroundProps/BGProps02/BGProps02_07.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Enviro/BackGroundProps/BGProps02/BGProps02_08.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Enviro/BackGroundProps/BGProps02/BGProps02_08.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Enviro/Runes/Rune_BigCircle/Rune_BigCircle_01.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Enviro/Runes/Rune_BigCircle/Rune_BigCircle_01.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Enviro/Runes/Rune_BigCircle/Rune_BigCircle_02.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Enviro/Runes/Rune_BigCircle/Rune_BigCircle_02.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Enviro/Runes/Rune_BigCircle/Rune_BigCircle_03.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Enviro/Runes/Rune_BigCircle/Rune_BigCircle_03.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Enviro/Runes/Rune_BigCircle/Rune_BigCircle_04.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Enviro/Runes/Rune_BigCircle/Rune_BigCircle_04.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Enviro/Runes/Rune_BigCircle/Rune_BigCircle_05.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Enviro/Runes/Rune_BigCircle/Rune_BigCircle_05.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Enviro/Runes/Rune_BigCircle/Rune_BigCircle_06.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Enviro/Runes/Rune_BigCircle/Rune_BigCircle_06.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Enviro/Runes/Rune_BigCircle/Rune_BigCircle_07.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Enviro/Runes/Rune_BigCircle/Rune_BigCircle_07.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Enviro/Runes/Rune_BigCircle/Rune_BigCircle_08.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Enviro/Runes/Rune_BigCircle/Rune_BigCircle_08.png.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,45 +55,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/FinishLevelTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/ScaleAnimation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FinishLevelTrigger.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/ID/Core/MushroomMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ID/Managers/MushroomManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ID/Managers/UserInterfaceManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ID/Systems/PickUpSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/GameOver.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/AutoScaleAnimationImage.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/ScaleAnimation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ID/InfiniteGroundController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ID/Managers/AudioManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/PointsDisplay.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/ToggleMenuButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/MainMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/LocalizedText.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LocalizedText.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MoBe.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MonoBe.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Mono.cs" />
-        <option value="$PROJECT_DIR$/Assets/CoinManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ID/Core/Mushroom.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ID/Systems/PlayerAnimationSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ID/PlayerData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ID/InfiniteGround.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/MenuButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ID/Managers/CoinManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ID/Systems/PlayerMovementSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/CameraController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ID/Core/CoinTrigger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/Fade.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ID/Core/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/FinishLevelTrigger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ID/Managers/GameManager.cs" />
-      </list>
-    </option>
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/Fade.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ID/Managers/GameManager.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1kq36nhG9LUHmYqMEAwX4MQLU7y" />
   <component name="ProjectViewState">
@@ -99,7 +82,7 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="selectedOptions">
-        <set />
+        <list />
       </option>
       <method v="2" />
     </configuration>
@@ -108,7 +91,7 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="selectedOptions">
-        <set />
+        <list />
       </option>
       <method v="2" />
     </configuration>
@@ -126,7 +109,8 @@
       <workItem from="1607043041773" duration="472000" />
       <workItem from="1607961053268" duration="10398000" />
       <workItem from="1608144991873" duration="629000" />
-      <workItem from="1611412694020" duration="6741000" />
+      <workItem from="1611412694020" duration="7326000" />
+      <workItem from="1612811530726" duration="334000" />
     </task>
     <servers />
   </component>

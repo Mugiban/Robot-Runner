@@ -18,11 +18,17 @@ namespace ID.UserInterface
         
         public void FadeIn()
         {
-            _canvasGroup.LeanAlpha(1f, fadeInTime).setEase(LeanTweenType.easeInSine);
+            if (_canvasGroup != null)
+            {
+                _canvasGroup.LeanAlpha(1f, fadeInTime).setEase(LeanTweenType.easeInSine);
+            }
         }
         public void FadeOut()
         {
-            _canvasGroup.LeanAlpha(0f, fadeOutTime).setEase(LeanTweenType.easeInQuart);
+            if (_canvasGroup != null)
+            {
+                _canvasGroup.LeanAlpha(0f, fadeOutTime).setEase(LeanTweenType.easeInQuart);
+            }
         }
     } 
 }
