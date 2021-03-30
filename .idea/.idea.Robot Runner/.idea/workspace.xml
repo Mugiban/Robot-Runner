@@ -20,31 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3b9d6ac-f715-479a-a8ad-072f12760746" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Robot Runner/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Robot Runner/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Robot Runner/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Robot Runner/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Robot Runner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Robot Runner/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Standard.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Standard.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Interactables/Platform.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Interactables/Platform.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Demo.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Managers.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Managers.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ID/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ID/Managers/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/Fade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ID/UserInterface/Fade.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Enviro/BackGroundProps/BGProps02/BGProps02_01.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Enviro/BackGroundProps/BGProps02/BGProps02_01.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Enviro/BackGroundProps/BGProps02/BGProps02_02.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Enviro/BackGroundProps/BGProps02/BGProps02_02.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Enviro/BackGroundProps/BGProps02/BGProps02_03.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Enviro/BackGroundProps/BGProps02/BGProps02_03.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Enviro/BackGroundProps/BGProps02/BGProps02_04.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Enviro/BackGroundProps/BGProps02/BGProps02_04.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Enviro/BackGroundProps/BGProps02/BGProps02_05.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Enviro/BackGroundProps/BGProps02/BGProps02_05.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Enviro/BackGroundProps/BGProps02/BGProps02_06.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Enviro/BackGroundProps/BGProps02/BGProps02_06.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Enviro/BackGroundProps/BGProps02/BGProps02_07.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Enviro/BackGroundProps/BGProps02/BGProps02_07.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Enviro/BackGroundProps/BGProps02/BGProps02_08.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Enviro/BackGroundProps/BGProps02/BGProps02_08.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Enviro/Runes/Rune_BigCircle/Rune_BigCircle_01.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Enviro/Runes/Rune_BigCircle/Rune_BigCircle_01.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Enviro/Runes/Rune_BigCircle/Rune_BigCircle_02.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Enviro/Runes/Rune_BigCircle/Rune_BigCircle_02.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Enviro/Runes/Rune_BigCircle/Rune_BigCircle_03.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Enviro/Runes/Rune_BigCircle/Rune_BigCircle_03.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Enviro/Runes/Rune_BigCircle/Rune_BigCircle_04.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Enviro/Runes/Rune_BigCircle/Rune_BigCircle_04.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Enviro/Runes/Rune_BigCircle/Rune_BigCircle_05.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Enviro/Runes/Rune_BigCircle/Rune_BigCircle_05.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Enviro/Runes/Rune_BigCircle/Rune_BigCircle_06.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Enviro/Runes/Rune_BigCircle/Rune_BigCircle_06.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Enviro/Runes/Rune_BigCircle/Rune_BigCircle_07.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Enviro/Runes/Rune_BigCircle/Rune_BigCircle_07.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Enviro/Runes/Rune_BigCircle/Rune_BigCircle_08.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Enviro/Runes/Rune_BigCircle/Rune_BigCircle_08.png.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +49,7 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="RiderUnityFileTemplatesSettings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -110,7 +87,7 @@
       <workItem from="1607961053268" duration="10398000" />
       <workItem from="1608144991873" duration="629000" />
       <workItem from="1611412694020" duration="7326000" />
-      <workItem from="1612811530726" duration="334000" />
+      <workItem from="1612811530726" duration="795000" />
     </task>
     <servers />
   </component>

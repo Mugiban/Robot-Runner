@@ -54,6 +54,9 @@ TagManager:
   - name: Player
     uniqueID: 4100886769
     locked: 0
+  - name: Lava
+    uniqueID: 166417685
+    locked: 0
   - name: Enemies
     uniqueID: 517178487
     locked: 0
