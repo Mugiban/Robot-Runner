@@ -55,6 +55,16 @@ namespace ID.Managers
             audioSource.PlayOneShot(audioClip);
         }
 
+        public static void PlayUI(AudioClip audioClip, float newVolume = .5f)
+        {
+            var audioSource = Instance.GetAudioSource();
+            audioSource.clip = audioClip;
+            audioSource.volume = newVolume;
+            audioSource.pitch = 1;
+            audioSource.loop = false;
+            audioSource.PlayOneShot(audioClip);
+        }
+
         private  AudioSource GetAudioSource()
         {
             foreach (var source in AudioSources)

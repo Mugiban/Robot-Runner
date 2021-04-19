@@ -42,7 +42,7 @@ namespace ID.UserInterface
         
         void ExitGame()
         {
-            AudioManager.PlaySound(backClip, .3f);
+            AudioManager.PlayUI(backClip, .3f);
             Application.Quit(0);
             #if UNITY_EDITOR
             EditorApplication.isPlaying = false;

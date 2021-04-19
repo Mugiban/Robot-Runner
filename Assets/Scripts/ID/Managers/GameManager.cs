@@ -12,11 +12,12 @@ namespace ID.Managers
     {
         MainMenu,
         Playing,
+        Won,
         GameOver
     }
     public class GameManager : Singleton<GameManager>
     {
-        public static GameState CurrentGameState;
+        private static GameState CurrentGameState;
         private InfiniteGroundController _infiniteGroundController;
         private CoinManager _coinManager;
         private SpawnPosition _spawnPosition;
@@ -24,6 +25,8 @@ namespace ID.Managers
         [SerializeField] private Fade fade;
 
         public static event Action OnPlayerDeath;
+        
+        public static event Action<GameState> OnSwitchState = delegate {  };
 
         private void OnEnable()
         {
@@ -49,16 +52,27 @@ namespace ID.Managers
                 case GameState.Playing:
                     ShowInGame();
                     break;
+                case GameState.Won:
+                    ShowWon();
+                    break;
                 case GameState.GameOver:
                     ShowGameOver();
                     break;
             }
+            OnSwitchState?.Invoke(CurrentGameState);
         }
-        
+
+        private void ShowWon()
+        {
+            fade.FadeIn();
+            _player.Stop();
+            _coinManager.RestorePosition();
+        }
+
         private void ShowMainMenu()
         {
             _infiniteGroundController.Activate();
-            _player.Deactivate(true);
+            _player.Initialize();
             _player.SetPosition(_spawnPosition.transform.position + Vector3.up * 2f);
             Invoke(nameof(ShowMain), .4f);
         }
@@ -82,7 +96,7 @@ namespace ID.Managers
         private void ShowGameOver()
         {
             fade.FadeIn();
-            _player.Deactivate(false);
+            _player.Kill();
             OnPlayerDeath?.Invoke();
         }
         
@@ -101,12 +115,9 @@ namespace ID.Managers
             ChangeState(GameState.Playing);
         }
 
-        public void CompleteLevel(int level)
+        public void CompleteLevel()
         {
-            fade.FadeIn();
-            _player.Deactivate(true);
-            _coinManager.RestorePosition();
-            Invoke(nameof(ShowMainMenu), 1f);
+            ChangeState(GameState.Won);
         }
     } 
 }

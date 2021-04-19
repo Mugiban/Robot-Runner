@@ -13,13 +13,13 @@ namespace ID
         {
             if (other.CompareTag("Player"))
             {
-                FinishLevel(other.GetComponent<Player>());
+                FinishLevel();
             }
         }
 
-        private void FinishLevel(Player player)
+        private void FinishLevel()
         {
-            GameManager.Instance.CompleteLevel(level);
+            GameManager.Instance.ChangeState(GameState.Won);
         }
     }
 }

@@ -19,6 +19,7 @@ namespace ID.Core
         [HideInInspector] public PlayerAnimationSystem playerAnimationSystem;
          public PickUpSystem pickUpSystem;
          public bool isDead;
+         private bool stop;
         
         private void Awake()
         {
@@ -47,27 +48,38 @@ namespace ID.Core
             playerAnimationSystem.LateUpdate();
         }
         
-        public void Deactivate(bool isStartGame)
+        public void Initialize()
         {
-            isDead = !isStartGame;
+            playerData.applyMovement = false;
+            _audioSource.volume = .03f;
+            stop = false;
+        }
+
+        public void Stop()
+        {
+            stop = true;
+            playerData.applyMovement = false;
+            _audioSource.volume = .1f;
+        }
+
+        public void Kill()
+        {
+            isDead = true;
+            AudioManager.PlaySound(playerData.deathSound, .4f);
+            playerAnimationSystem.AnimateDeath();
             
-            if (isDead)
-            {
-                AudioManager.PlaySound(playerData.deathSound, .4f);
-                playerAnimationSystem.AnimateDeath();
-            }
             
             playerData.applyMovement = false;
             Invoke(nameof(ApplyGravity), 1f);
             pickUpSystem.Reset();
-            _audioSource.volume = .03f;
+            _audioSource.volume = .1f;
         }
         
         private IEnumerator PlayFootStepCoroutine()
         {
             while (true)
             {
-                if (_controller.isGrounded && isDead == false)
+                if (_controller.isGrounded && isDead == false && stop == false)
                 {
                     _audioSource.PlayOneShot(playerData.leftFootStepSound);
                     yield return new WaitForSeconds(playerData.footStepsTimeStamp / 2f);
@@ -89,6 +101,7 @@ namespace ID.Core
             playerData.applyMovement = true;
             playerData.applyGravity = true;
             _audioSource.volume = .1f;
+            stop = false;
         }
 
         public void SetPosition(Vector3 spawnPosition)
@@ -96,5 +109,6 @@ namespace ID.Core
             isDead = false;
             transform.position = spawnPosition;
         }
+
     }
 }

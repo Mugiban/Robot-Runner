@@ -23,11 +23,11 @@ namespace ID.UserInterface
             LeanTween.alphaCanvas(controlsPanel, isToggle ? 1 : 0, .25f);
             if (isToggle)
             {
-                AudioManager.PlaySound(clickClip, .25f);
+                AudioManager.PlayUI(clickClip, .25f);
             }
             else
             {
-                AudioManager.PlaySound(backClip, .25f);
+                AudioManager.PlayUI(backClip, .25f);
             }
         }
 
