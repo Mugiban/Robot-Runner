@@ -14,12 +14,24 @@ namespace ID.UserInterface
         protected Button _button;
         public AudioClip hoverClip;
         public AudioClip clickClip;
+        public bool deselectOnDisable = true;
 
         private void OnEnable()
         {
             _rect = GetComponent<RectTransform>();
             _button = GetComponent<Button>();
+            
         }
+
+        private void OnDisable()
+        {
+            if (deselectOnDisable)
+            {
+                if(EventSystem.current)
+                    EventSystem.current.SetSelectedGameObject(null);
+            }
+        }
+
         public void AddListener(UnityAction action)
         {
             if(_button == null) _button = GetComponent<Button>();
@@ -40,8 +52,10 @@ namespace ID.UserInterface
 
         public void Click()
         {
-            if(clickClip != null)
+            if (clickClip != null)
+            {
                 AudioManager.PlayUI(clickClip, .15f);
+            }
         }
     }
 }

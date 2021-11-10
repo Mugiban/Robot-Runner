@@ -23,6 +23,9 @@ namespace ID.Systems
 
         private PlayerData _playerData;
         private Player _player;
+        
+
+        private bool _lastGrounded;
 
 
         public PlayerMovementSystem(Player player)
@@ -68,6 +71,7 @@ namespace ID.Systems
                 _movement = new Vector2(0, _movement.y);
             }
             _controller.move(_movement * Time.deltaTime);
+            _lastGrounded = _controller.isGrounded;
         }
 
         private void HandleJump()
@@ -109,6 +113,7 @@ namespace ID.Systems
             _groundTimer = 0;
             _coyoteTimer = 0;
             _audioSource.PlayOneShot(_playerData.jumpSound);
+            _player.OnJump();
             
         }
     } 

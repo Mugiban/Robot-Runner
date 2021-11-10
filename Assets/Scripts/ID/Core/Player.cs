@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using ID.Managers;
 using ID.Systems;
 using UnityEngine;
@@ -14,6 +15,7 @@ namespace ID.Core
         private CharacterController2D _controller;
         private Animator _animator;
         private AudioSource _audioSource;
+        public event Action<Vector3> OnJumpAction = delegate { };
         
         [HideInInspector] public PlayerMovementSystem playerMovementSystem;
         [HideInInspector] public PlayerAnimationSystem playerAnimationSystem;
@@ -67,6 +69,7 @@ namespace ID.Core
             isDead = true;
             AudioManager.PlaySound(playerData.deathSound, .4f);
             playerAnimationSystem.AnimateDeath();
+            playerData.applyMovement = false;
             
             
             playerData.applyMovement = false;
@@ -89,6 +92,11 @@ namespace ID.Core
 
                 yield return null;
             }
+        }
+
+        public void OnJump()
+        {
+            OnJumpAction?.Invoke(transform.position);
         }
 
         private void ApplyGravity()
